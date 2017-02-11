@@ -10,11 +10,11 @@ app.get('/', function (req, res) {
 });
 
 app.get('/hemanth1', function (req, res) {
-  res.sendFile("Hello 1");
+  res.sendFile('Hello 1');
 });
 
 app.get('/hem1', function (req, res) {
-  res.sendFile( " hem2");
+  res.sendFile( ' hem2');
 });
 
 app.get('/ui/style.css', function (req, res) {
